@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="amazon">
+    <test name="amazon test">
+        <parameter name="product" value="shaker"></parameter>
+        <classes>
+            <class name="com.amazon.tests.AmazonScripts"></class>
+        </classes>
+    </test>
+</suite>
